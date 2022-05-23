@@ -6,7 +6,7 @@ $_PMETA = ["load" => [
 require PATH_PAGES . "TEMPLATE-top.php"; ?>
 <h3 class="mb-3">CHECK ITEM</h3>
 <div class="bg-white border p-4">
-
+<script src="html5-qrcode.min.js"></script>
   <!-- (A) SCANNER -->
   <div class="mb-3" id="reader"></div>
 

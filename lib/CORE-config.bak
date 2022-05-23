@@ -2,7 +2,7 @@
 // SEARCH FOR @CHANGE AND UPDATE THE SETTINGS TO YOUR OWN!
 
 // (A) HOST
-define("HOST_BASE", "http://localhost/Storage-Boxx/"); // CHANGED BY INSTALLER
+define("HOST_BASE", "http://localhost/"); // CHANGED BY INSTALLER
 define("HOST_NAME", parse_url(HOST_BASE, PHP_URL_HOST));
 define("HOST_BASE_PATH", parse_url(HOST_BASE, PHP_URL_PATH));
 define("HOST_API", HOST_BASE_PATH . "api/");
@@ -32,7 +32,7 @@ ini_set("log_errors", 0);
 define("ERR_SHOW", true);
 
 // (D) JSON WEB TOKEN
-define("JWT_SECRET", "secret"); // CHANGED BY INSTALLER
+define("JWT_SECRET", "M7lWydOxnQIeQeK_YbLbjMO2LT2s2zAghML-lekJkVrBhyMw"); // CHANGED BY INSTALLER
 define("JWT_ISSUER", "localhost"); // CHANGED BY INSTALLER
 define("JWT_ALGO", "HS256");
 define("JWT_EXPIRE", 0); // in seconds, 0 for none

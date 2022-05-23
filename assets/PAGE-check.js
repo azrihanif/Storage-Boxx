@@ -1,7 +1,7 @@
 var check = {
   // (A) VERIFY VALID SKU BEFORE SHOW HISTORY
   verify : () => {
-    var field = document.getElementById("check-sku");
+    var field = document.getElementById("mvt-sku");
     cb.api({
       mod : "inventory",
       req : "get",

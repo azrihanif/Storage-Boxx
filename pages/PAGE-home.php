@@ -13,7 +13,7 @@ require PATH_PAGES . "TEMPLATE-top.php"; ?>
   <form autocomplete="off" onsubmit="return move.save()">
     <div class="input-group mb-3">
       <div class="input-group-prepend">
-        <span class="input-group-text mi">compare_arrows</span>
+        <span class="input-group-text mi" title="testtest">compare_arrows</span>
       </div>
       <select class="form-control" id="mvt-direction">
         <option value="I">Stock In (Receive)</option>
